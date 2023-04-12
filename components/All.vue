@@ -1,0 +1,930 @@
+<template>
+  <div>
+    <!-- ======= Header ======= -->
+    <section id="topbar" class="topbar d-flex align-items-center">
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <div>
+            <i class="bi bi-instagram"></i>
+            <a
+              style="color: white"
+              href="https://www.instagram.com/alihizaam.id/"
+              >alihizaam.id</a
+            >
+          </div>
+          <div style="margin: 0 15px; text-decoration: none">
+            <i class="bi bi-whatsapp"></i>
+            <a style="color: white" href="https://wa.me/6282349756601"
+              >0823-4975-6601</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Top Bar -->
+
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/alihizaam.png" alt="" />
+          <!-- <img src="assets/img/logo-11.png" alt=""> -->
+          <!-- <h1>LADZIIDZ CATERING<span>.</span></h1> -->
+        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Program</a></li>
+            <!-- <li><a href="#testimonials">Testimoni</a></li> -->
+            <li><a href="#portfolio">Galeri</a></li>
+            <li><a href="#struktur">Struktur</a></li>
+
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+      <div>
+        <div class="container position-relative">
+          <div class="row gy-5" data-aos="fade-in">
+            <div
+              class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start"
+            >
+              <h2>Yayasan Ali Hizaam</h2>
+              <div class="hero-text">
+                <h4>
+                  Menyediakan pelatihan dan pendidikan terbaik bagi siswa-siswi
+                  Indonesia
+                </h4>
+                <!-- <h4>Menyediakan pelatihan dan pendidikan terbaik bagi siswa-siswi Indonesia</h4> -->
+              </div>
+              <div
+                class="d-flex justify-content-center justify-content-lg-start"
+              >
+                <a href="https://wa.me/6282349756601" class="btn-get-started"
+                  >Lihat Program</a
+                >
+                <a
+                  href="assets/img/videoo.mp4"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  ><i class="bi bi-play-circle"></i><span>Nonton Video</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="icon-boxes position-relative">
+          <div class="container position-relative">
+            <div class="row gy-4 mt-5">
+              <div class="melayani">
+                <h1>Program Yayasan:</h1>
+              </div>
+
+              <div
+                class="col-xl-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-stack"></i></div>
+                  <h4 class="title">
+                    <a href="" class="stretched-link">Pendidikan</a>
+                  </h4>
+                </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div
+                class="col-xl-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-people"></i></div>
+                  <h4 class="title">
+                    <a href="" class="stretched-link">Sosial</a>
+                  </h4>
+                </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div
+                class="col-xl-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                  <h4 class="title">
+                    <a href="" class="stretched-link">Peduli</a>
+                  </h4>
+                </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div
+                class="col-xl-3 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-flower1"></i></div>
+                  <h4 class="title">
+                    <a href="" class="stretched-link">Dakwah</a>
+                  </h4>
+                </div>
+              </div>
+              <!--End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Tentang Kami</h2>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <img
+                src="assets/img/about.jpg"
+                style="width: 600px; height: 520px"
+                class="img-fluid rounded-4 mb-4"
+                alt=""
+              />
+              <h3>SEJARAH</h3>
+              <p>
+                Yayasan Pendidikan Sosial Islam Ali Hizaam didirikan pada tahun
+                2010 oleh sekumpulan orang yang peduli terhadap masa depan
+                anak-anak Indonesia. Berdasarkan prinsip-prinsip Islam yang
+                sejahtera, yayasan ini bertujuan mengembangkan sistem pendidikan
+                yang inovatif dan berorientasi pada kemajuan umat.
+              </p>
+
+              <!-- <p>Kami percaya bahwa makanan adalah bagian penting dari setiap acara dan perayaan karena itu kami berkomitmen untuk menyajikan hidangan yang halal dan sehat yang diolah dari bahan-bahan segar dan peralatan yang bersih. Kami memiliki pilihan paket menu yang beragam.</p>
+              
+            <p>Ladziidz Catering sangat memperhatikan kualitas dan keselamatan makanan dengan sangat serius olehnya kami selalu menggunakan bahan-bahan berkualitas dari supplier terpercaya. kami berharap dapat bekerja sama dengan Anda untuk menyajikan hidangan yang Halal, Lezat dan Berkualitas. Silakan hubungi kami untuk informasi lebih lanjut.</p> -->
+            </div>
+            <div class="col-lg-6">
+              <div class="content ps-0 ps-lg-5">
+                <p class="p-alasam" style="font-size: 20px; font-weight: bold">
+                  VISI DAN MISI
+                </p>
+                <ul>
+                  <p>
+                    Visi yayasan adalah menjadi yayasan pendidikan sosial Islam
+                    terkemuka di Indonesia yang menghasilkan lulusan berkualitas
+                    dan berbudaya. Misi yayasan adalah:
+                  </p>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>Mengembangkan sistem
+                    pendidikan sosial Islam yang inovatif dan berorientasi pada
+                    kemajuan umat.
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>Menghasilkan lulusan
+                    yang berkualitas dan memiliki keunggulan kompetitif di
+                    bidangnya.
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i>Mendorong terwujudnya
+                    masyarakat Indonesia yang sejahtera, bermartabat, dan
+                    beradab.
+                  </li>
+                </ul>
+
+                <p class="p-alasam" style="font-size: 20px; font-weight: bold">
+                  STRUKTUR ORGANISASI
+                </p>
+                <ul>
+                  <p>
+                    Yayasan Pendidikan Sosial Islam Ali Hizaam memiliki struktur
+                    organisasi yang terdiri dari Dewan Pembina, Dewan Pengurus,
+                    dan Departemen-departemen yang menangani kegiatan-kegiatan
+                    yayasan. Masing-masing departemen dipimpin oleh seorang
+                    ketua yang bertanggung jawab terhadap keberlangsungan dan
+                    kemajuan kegiatan-kegiatan di bawahnya.
+                  </p>
+                </ul>
+
+                <div class="position-relative mt-4">
+                  <img
+                    src="assets/img/image9.jpg"
+                    style="width: 600px; height: 350px"
+                    class="img-fluid rounded-4"
+                    alt=""
+                  />
+                  <!-- <a href="assets/img/video3.mp4" class="glightbox play-btn"></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Our Services Section ======= -->
+
+      <section id="services" class="services sections-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Program Yayasan Ali Hizaam</h2>
+            <p style="color: white">
+              Program-program Yayasan Ali Hizaam telah terbukti memberikan
+              manfaat dan dampak positif bagi masyarakat Indonesia. Kami percaya
+              bahwa dengan program-program kami, kita dapat membantu
+              meningkatkan kualitas hidup masyarakat Indonesia dan menciptakan
+              lingkungan yang sejahtera, bermartabat, dan beradab. Mari
+              bergabung dan dukung program-program Yayasan Ali Hizaam dalam
+              upaya memajukan pendidikan dan kesejahteraan masyarakat Indonesia.
+            </p>
+          </div>
+
+          <div
+            class="services-isotope"
+            data-services-filter="*"
+            data-services-layout="masonry"
+            data-services-sort="original-order"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="row gy-4 services-container">
+              <div class="col-xl-4 col-md-6 services-item filter-product">
+                <div class="services-wrap">
+                  <a
+                    href="assets/img/call-action.jpg"
+                    data-gallery="services-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/call-action.jpg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="services-info">
+                    <h4>
+                      <a href="#" title="More Details">Program Pendidikan</a>
+                    </h4>
+                    <p>
+                      Kami menyediakan berbagai program pendidikan yang terdiri
+                      dari beberapa kegiatan-kegiatan seperti kelas bahasa
+                      Inggris, kelas matematika, dan lain-lain sebagainya untuk
+                      mendukung pendidikan siswa dan mahasiswa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End services Item -->
+
+              <div class="col-xl-4 col-md-6 services-item filter-branding">
+                <div class="services-wrap">
+                  <a
+                    href="assets/img/program-2.jpg"
+                    data-gallery="services-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/program-2.jpg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="services-info">
+                    <h4><a href="#" title="More Details">Program Sosial</a></h4>
+                    <p>
+                      Kami juga menyediakan program penyediaan bantuan sosial
+                      bagi masyarakat sekitar yang membutuhkan, seperti bantuan
+                      pangan, pakaian, modal usaha dan lain-lain sebagai bentuk
+                      peduli pada masyarakat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End services Item -->
+
+              <div class="col-xl-4 col-md-6 services-item filter-books">
+                <div class="services-wrap">
+                  <a
+                    href="assets/img/image77.jpg"
+                    data-gallery="services-gallery-app"
+                    class="glightbox"
+                    ><img src="assets/img/image77.jpg" class="img-fluid" alt=""
+                  /></a>
+                  <div class="services-info">
+                    <h4><a href="#" title="More Details">Program Dakwah</a></h4>
+                    <p>
+                      Untuk meningkatkan kualitas jama'ah dan masyarakat, kami
+                      juga berusaha semaksimal mungkin menghidupkan masjid
+                      dengan berbagai amal kegiatan yang bermanfaat seperti
+                      majelis ilmu, temu aktivis dan lain-lainnya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End services Item -->
+            </div>
+            <!-- End services Container -->
+          </div>
+        </div>
+      </section>
+
+      <!-- End Our Services Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <!-- Testimoni section -->
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Call To Action Section ======= -->
+      <section id="call-to-action" class="call-to-action">
+        <div class="container text-center" data-aos="zoom-out">
+          <a
+            href="https://www.facebook.com/alihizaam.id/videos/2376753465693595"
+            class="glightbox play-btn"
+          ></a>
+          <h3>Ayo Berdonasi</h3>
+          <p>
+            Mari bergabung dan berdonasi untuk mendukung program-program Masjid
+            Ali Hizaam yang bertujuan meningkatkan kualitas pendidikan dan
+            kesejahteraan masyarakat Indonesia. Dengan bergabung dan berdonasi,
+            kita dapat bersama-sama memberikan manfaat dan dampak positif bagi
+            orang-orang yang membutuhkan.
+          </p>
+          <a class="cta-btn" href="https://wa.me/6282349756601"
+            >Donasi Sekarang</a
+          >
+        </div>
+      </section>
+      <!-- End Call To Action Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio sections-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Galeri</h2>
+            <p style="color: white">
+              Kami sangat bersyukur dapat berbagi momen-momen yang bersih dan
+              menginspirasi dari kegiatan-kegiatan amal dan program kemanusiaan
+              kami. Kita dapat melihat seberapa besar dampak yang telah kami
+              hasilkan bersama. Dari kegiatan bakti sosial hingga program
+              pendidikan. Kami berharap semua ini dapat menginspirasi dan
+              memotivasi kita semua untuk bergabung dalam memberikan lebih
+              banyak manfaat bagi mereka yang membutuhkan. Mari bersama-sama
+              menjadikan dunia ini menjadi tempat yang lebih baik untuk kita
+              semua!
+            </p>
+          </div>
+
+          <div
+            class="portfolio-isotope"
+            data-portfolio-filter="*"
+            data-portfolio-layout="masonry"
+            data-portfolio-sort="original-order"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div>
+              <ul class="portfolio-flters">
+                <li data-filter="*" class="filter-active">Semua</li>
+              </ul>
+              <!-- End Portfolio Filters -->
+            </div>
+
+            <div class="row gy-4 portfolio-container">
+              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/image8.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/image8.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="#" title="More Details">Temu Pengurus</a></h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/image10.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/image10.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="#" title="More Details">Makan Bersama</a></h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/program6.png"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/program6.png"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="#" title="More Details">Mengajar Ngaji</a></h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/image5.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/image5.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="#" title="More Details">Shalat Idul Fitri</a>
+                    </h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/image6.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/image6.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="#" title="More Details">Workshop Mahasiswa</a>
+                    </h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/image13.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/image13.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="#" title="More Details">Kajian Rutin</a></h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/program-2.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/program-2.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="#" title="More Details">Bantuan Sosial</a></h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/image9.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/image9.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4>
+                      <a href="#" title="More Details">Dirosa Orang Dewasa</a>
+                    </h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <a
+                    href="assets/img/call-action.jpg"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/call-action.jpg"
+                      style="width: 1024px; height: 282px"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <div class="portfolio-info">
+                    <h4><a href="#" title="More Details">TK/TPA</a></h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Our Struktur Section ======= -->
+      <section id="struktur" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Struktur Yayasan Ali Hizaam</h2>
+            <!-- <p>Program-program Yayasan Ali Hizaam telah terbukti memberikan manfaat dan dampak positif bagi masyarakat Indonesia. Kami percaya bahwa dengan program-program kami, kita dapat membantu meningkatkan kualitas hidup masyarakat Indonesia dan menciptakan lingkungan yang sejahtera, bermartabat, dan beradab. Mari bergabung dan dukung program-program Yayasan Ali Hizaam dalam upaya memajukan pendidikan dan kesejahteraan masyarakat Indonesia.</p> -->
+          </div>
+
+          <div
+            class="services-isotope"
+            data-services-filter="*"
+            data-services-layout="masonry"
+            data-services-sort="original-order"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="row gy-12 services-container">
+              <div class="col-xl-12 col-md-12 services-item filter-product">
+                <div class="services-wrap">
+                  <a
+                    href="assets/img/struktur2.png"
+                    data-gallery="services-gallery-app"
+                    class="glightbox"
+                    ><img
+                      src="assets/img/struktur2.png"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+              <!-- End services Item -->
+            </div>
+            <!-- End services Container -->
+          </div>
+        </div>
+      </section>
+
+      <!-- End Our Services Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Kontak</h2>
+            <p>
+              Mari bergabung bersama kami menjangkau dan menebar lebih banyak
+              kebaikan kepada ummat
+            </p>
+          </div>
+
+          <div class="row gx-lg-0 gy-4">
+            <div class="col-lg-4">
+              <div
+                class="info-container d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="info-item d-flex">
+                  <a
+                    href="https://www.google.com/maps/place/Masjid+Ali-hizaam/@-5.1345849,119.4827783,16z/data=!4m5!3m4!1s0x2dbee334daba7981:0x5f4200901921392b!8m2!3d-5.1345712!4d119.4827626"
+                    ><i class="bi bi-geo-alt flex-shrink-0"></i
+                  ></a>
+                  <div>
+                    <h4>Lokasi:</h4>
+                    <a
+                      style="color: white"
+                      href="https://www.google.com/maps/place/Masjid+Ali-hizaam/@-5.1345849,119.4827783,16z/data=!4m5!3m4!1s0x2dbee334daba7981:0x5f4200901921392b!8m2!3d-5.1345712!4d119.4827626"
+                    >
+                      <p>
+                        Masjid Ali hizaam, Lorong Masjid Ali Hizaam, Tamalanrea
+                        Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan
+                        90245
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="info-item d-flex">
+                  <a href="mailto:info@alihizaam.org"
+                    ><i class="bi bi-envelope flex-shrink-0"></i
+                  ></a>
+                  <div>
+                    <h4>Email:</h4>
+                    <p>
+                      <a style="color: white" href="mailto:info@alihizaam.org"
+                        >info@alihizaam.org</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="info-item d-flex">
+                  <a href="https://wa.me/6282349756601"
+                    ><i class="bi bi-phone flex-shrink-0"></i
+                  ></a>
+                  <div>
+                    <h4>Call:</h4>
+                    <a style="color: white" href="https://wa.me/6282349756601">
+                      <p>0823-4975-6601</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <form class="php-email-form" name="kontak-form">
+                <div
+                  class="alert alert-success alert-dismissible fade show d-none btn-alert"
+                  role="alert"
+                >
+                  <strong>Terima Kasih!</strong> Pesan Anda Sudah Kami Terima.
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="nama"
+                      class="form-control"
+                      id="name"
+                      placeholder="Nama Anda"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Email Anda"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="pesan"
+                    rows="3"
+                    placeholder="Pesan"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3"></div>
+                <div class="text-center">
+                  <button class="btn-kirim" type="submit">Kirim Pesan</button>
+                  <button
+                    class="d-none btn-loading"
+                    style="
+                      background: var(--color-primary);
+                      border: 0;
+                      padding: 14px 45px;
+                      color: #fff;
+                      transition: 0.4s;
+                      border-radius: 50px;
+                    "
+                    type="button"
+                    disabled
+                  >
+                    <span
+                      class="spinner-border spinner-border-sm"
+                      role="status"
+                      aria-hidden="true"
+                    ></span>
+                    Loading...
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <h3>
+              Pertanyaan seputar <strong>Yayasan Pendidikan Ali Hizaam</strong>
+            </h3>
+            <p>
+              <a style="color: white; font-weight: bold" href="#"
+                >Yayasan Pendidikan Ali Hizaam </a
+              >adalah sebuah yayasan yang bergerak di bidang pendidikan yang
+              bertujuan untuk meningkatkan kualitas pendidikan di Indonesia.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://wa.me/6282349756601" class="twitter"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+              <a href="https://www.facebook.com/alihizaam.id" class="facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/alihizaam.id/"
+                class="instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Link tersedia</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">Tentang Kami</a></li>
+              <li><a href="#services">Program</a></li>
+              <li><a href="#portfolio">Galeri</a></li>
+              <li><a href="#struktur">Struktur</a></li>
+              <!-- <li><a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Layanan Kami</h4>
+            <ul>
+              <li><a href="#services">Pendidikan</a></li>
+              <li><a href="#services">Bakti Sosial</a></li>
+              <li><a href="#services">Masyarakat</a></li>
+              <li><a href="#services">Dakwah</a></li>
+              <li><a href="#services">Komunitas</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Kontak Kami</h4>
+            <a
+              style="color: white"
+              href="https://www.google.com/maps/place/Masjid+Ali-hizaam/@-5.1345849,119.4827783,16z/data=!4m5!3m4!1s0x2dbee334daba7981:0x5f4200901921392b!8m2!3d-5.1345712!4d119.4827626"
+              ><p>
+                Masjid Ali hizaam, Lorong Masjid Ali Hizaam, Tamalanrea Indah,
+                Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan 90245
+              </p></a
+            >
+            <a style="color: white" href="https://wa.me/6282349756601"
+              ><p><strong>Phone:</strong> 0823-4975-6601</p></a
+            >
+            <a style="color: white" href="mailto:info@alihizaam.org"
+              ><p><strong>Email: </strong>info@alihizaam.org</p></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="copyright">
+          &copy; Copyright
+          <strong><span>Yayasan Pendidikan Ali Hizaam</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  head: {
+    title: "Ali Hizaam",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+      { name: "description", content: "" },
+      { name: "keywords", content: "" },
+    ],
+    link: [
+      { rel: "icon", href: "/logo2.png" },
+      { rel: "apple-touch-icon", href: "/logo2.png" },
+      { rel: "apple-touch-icon", href: "/logo2.png" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: true,
+      },
+      {
+        href: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap",
+        rel: "stylesheet",
+      },
+      {
+        rel: "stylesheet",
+        href: "/assets/vendor/bootstrap/css/bootstrap.min.css",
+      },
+      {
+        rel: "stylesheet",
+        href: "/assets/vendor/bootstrap-icons/bootstrap-icons.css",
+      },
+      { rel: "stylesheet", href: "/assets/vendor/aos/aos.css" },
+      {
+        rel: "stylesheet",
+        href: "/assets/vendor/glightbox/css/glightbox.min.css",
+      },
+      {
+        rel: "stylesheet",
+        href: "/assets/vendor/swiper/swiper-bundle.min.css",
+      },
+      { href: "/main.css", rel: "stylesheet" },
+    ],
+  },
+};
+</script>
