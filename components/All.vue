@@ -2,8 +2,8 @@
   <div>
     <!-- ======= Header ======= -->
     <section id="topbar" class="topbar d-flex align-items-center">
-      <div
-        class="container d-flex justify-content-center justify-content-md-between"
+      <b-container
+        class="d-flex justify-content-center justify-content-md-between"
       >
         <div class="contact-info d-flex align-items-center">
           <div>
@@ -16,34 +16,31 @@
           </div>
           <div style="margin: 0 15px; text-decoration: none">
             <i class="bi bi-whatsapp"></i>
-            <a style="color: white" href="https://wa.me/6282349756601"
+            <a style="color: black" href="https://wa.me/6282349756601"
               >0823-4975-6601</a
             >
           </div>
         </div>
-      </div>
+      </b-container>
     </section>
     <!-- End Top Bar -->
 
     <header id="header" class="header d-flex align-items-center">
-      <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      <b-container
+        fluid
+        class="d-flex align-items-center justify-content-between"
       >
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="assets/img/alihizaam.png" alt="" />
-          <!-- <img src="assets/img/logo-11.png" alt=""> -->
-          <!-- <h1>LADZIIDZ CATERING<span>.</span></h1> -->
         </a>
         <nav id="navbar" class="navbar">
           <ul>
             <li><a href="#hero">Beranda</a></li>
             <li><a href="#about">Tentang</a></li>
             <li><a href="#services">Program</a></li>
-            <!-- <li><a href="#testimonials">Testimoni</a></li> -->
             <li><a href="#portfolio">Galeri</a></li>
             <li><a href="#struktur">Struktur</a></li>
-
             <li><a href="#contact">Kontak</a></li>
           </ul>
         </nav>
@@ -51,15 +48,15 @@
 
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      </div>
+      </b-container>
     </header>
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero">
       <div>
-        <div class="container position-relative">
-          <div class="row gy-5" data-aos="fade-in">
+        <b-container class="position-relative">
+          <div class="row gy-5">
             <div
               class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start"
             >
@@ -85,19 +82,15 @@
               </div>
             </div>
           </div>
-        </div>
+        </b-container>
         <div class="icon-boxes position-relative">
-          <div class="container position-relative">
+          <b-container class="position-relative">
             <div class="row gy-4 mt-5">
               <div class="melayani">
                 <h1>Program Yayasan:</h1>
               </div>
 
-              <div
-                class="col-xl-3 col-md-6"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
+              <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-stack"></i></div>
                   <h4 class="title">
@@ -107,11 +100,7 @@
               </div>
               <!--End Icon Box -->
 
-              <div
-                class="col-xl-3 col-md-6"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-people"></i></div>
                   <h4 class="title">
@@ -121,11 +110,7 @@
               </div>
               <!--End Icon Box -->
 
-              <div
-                class="col-xl-3 col-md-6"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
+              <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-geo-alt"></i></div>
                   <h4 class="title">
@@ -135,11 +120,7 @@
               </div>
               <!--End Icon Box -->
 
-              <div
-                class="col-xl-3 col-md-6"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
+              <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-flower1"></i></div>
                   <h4 class="title">
@@ -149,7 +130,7 @@
               </div>
               <!--End Icon Box -->
             </div>
-          </div>
+          </b-container>
         </div>
       </div>
     </section>
@@ -158,7 +139,7 @@
     <main id="main">
       <!-- ======= About Us Section ======= -->
       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+        <b-container>
           <div class="section-header">
             <h2>Tentang Kami</h2>
           </div>
@@ -238,17 +219,17 @@
               </div>
             </div>
           </div>
-        </div>
+        </b-container>
       </section>
       <!-- End About Us Section -->
 
       <!-- ======= Our Services Section ======= -->
 
       <section id="services" class="services sections-bg">
-        <div class="container" data-aos="fade-up">
+        <b-container>
           <div class="section-header">
             <h2>Program Yayasan Ali Hizaam</h2>
-            <p style="color: white">
+            <p style="color: black">
               Program-program Yayasan Ali Hizaam telah terbukti memberikan
               manfaat dan dampak positif bagi masyarakat Indonesia. Kami percaya
               bahwa dengan program-program kami, kita dapat membantu
@@ -264,8 +245,6 @@
             data-services-filter="*"
             data-services-layout="masonry"
             data-services-sort="original-order"
-            data-aos="fade-up"
-            data-aos-delay="100"
           >
             <div class="row gy-4 services-container">
               <div class="col-xl-4 col-md-6 services-item filter-product">
@@ -341,7 +320,7 @@
             </div>
             <!-- End services Container -->
           </div>
-        </div>
+        </b-container>
       </section>
 
       <!-- End Our Services Section -->
@@ -352,7 +331,7 @@
 
       <!-- ======= Call To Action Section ======= -->
       <section id="call-to-action" class="call-to-action">
-        <div class="container text-center" data-aos="zoom-out">
+        <div class="container text-center">
           <a
             href="https://www.facebook.com/alihizaam.id/videos/2376753465693595"
             class="glightbox play-btn"
@@ -374,10 +353,10 @@
 
       <!-- ======= Portfolio Section ======= -->
       <section id="portfolio" class="portfolio sections-bg">
-        <div class="container" data-aos="fade-up">
+        <b-container>
           <div class="section-header">
             <h2>Galeri</h2>
-            <p style="color: white">
+            <p style="color: black">
               Kami sangat bersyukur dapat berbagi momen-momen yang bersih dan
               menginspirasi dari kegiatan-kegiatan amal dan program kemanusiaan
               kami. Kita dapat melihat seberapa besar dampak yang telah kami
@@ -395,8 +374,6 @@
             data-portfolio-filter="*"
             data-portfolio-layout="masonry"
             data-portfolio-sort="original-order"
-            data-aos="fade-up"
-            data-aos-delay="100"
           >
             <div>
               <ul class="portfolio-flters">
@@ -594,13 +571,13 @@
             </div>
             <!-- End Portfolio Container -->
           </div>
-        </div>
+        </b-container>
       </section>
       <!-- End Portfolio Section -->
 
       <!-- ======= Our Struktur Section ======= -->
       <section id="struktur" class="services">
-        <div class="container" data-aos="fade-up">
+        <b-container>
           <div class="section-header">
             <h2>Struktur Yayasan Ali Hizaam</h2>
             <!-- <p>Program-program Yayasan Ali Hizaam telah terbukti memberikan manfaat dan dampak positif bagi masyarakat Indonesia. Kami percaya bahwa dengan program-program kami, kita dapat membantu meningkatkan kualitas hidup masyarakat Indonesia dan menciptakan lingkungan yang sejahtera, bermartabat, dan beradab. Mari bergabung dan dukung program-program Yayasan Ali Hizaam dalam upaya memajukan pendidikan dan kesejahteraan masyarakat Indonesia.</p> -->
@@ -611,8 +588,6 @@
             data-services-filter="*"
             data-services-layout="masonry"
             data-services-sort="original-order"
-            data-aos="fade-up"
-            data-aos-delay="100"
           >
             <div class="row gy-12 services-container">
               <div class="col-xl-12 col-md-12 services-item filter-product">
@@ -632,14 +607,14 @@
             </div>
             <!-- End services Container -->
           </div>
-        </div>
+        </b-container>
       </section>
 
       <!-- End Our Services Section -->
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
+        <b-container>
           <div class="section-header">
             <h2>Kontak</h2>
             <p>
@@ -710,12 +685,12 @@
                   role="alert"
                 >
                   <strong>Terima Kasih!</strong> Pesan Anda Sudah Kami Terima.
-                  <button
+                  <b-button
                     type="button"
                     class="btn-close"
                     data-bs-dismiss="alert"
                     aria-label="Close"
-                  ></button>
+                  ></b-button>
                 </div>
                 <div class="row mt-5">
                   <div class="col-md-6 form-group">
@@ -776,7 +751,7 @@
             </div>
             <!-- End Contact Form -->
           </div>
-        </div>
+        </b-container>
       </section>
       <!-- End Contact Section -->
     </main>
@@ -784,7 +759,7 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-      <div class="container">
+      <b-container>
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <h3>
@@ -854,9 +829,9 @@
             >
           </div>
         </div>
-      </div>
+      </b-container>
 
-      <div class="container mt-4">
+      <b-container class="mt-4">
         <div class="copyright">
           &copy; Copyright
           <strong><span>Yayasan Pendidikan Ali Hizaam</span></strong
@@ -868,7 +843,7 @@
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
         </div>
-      </div>
+      </b-container>
     </footer>
     <!-- End Footer -->
 
@@ -877,8 +852,6 @@
       class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-
-    <div id="preloader"></div>
   </div>
 </template>
 
@@ -914,7 +887,7 @@ export default {
         rel: "stylesheet",
         href: "/assets/vendor/bootstrap-icons/bootstrap-icons.css",
       },
-      { rel: "stylesheet", href: "/assets/vendor/aos/aos.css" },
+      // { href: "/assets/vendor/aos/aos.css", rel: "stylesheet" },
       {
         rel: "stylesheet",
         href: "/assets/vendor/glightbox/css/glightbox.min.css",
@@ -923,7 +896,7 @@ export default {
         rel: "stylesheet",
         href: "/assets/vendor/swiper/swiper-bundle.min.css",
       },
-      { href: "/main.css", rel: "stylesheet" },
+      { href: "/assets/css/main.css", rel: "stylesheet" },
     ],
   },
 };
