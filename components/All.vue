@@ -852,12 +852,19 @@
       class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
+    <div id="preloader"></div>
   </div>
 </template>
 
 <script>
 export default {
   head: {
+    script: [
+      {
+        src: "/assets/js/main.js",
+        async: true,
+      },
+    ],
     title: "Ali Hizaam",
     meta: [
       { charset: "utf-8" },
