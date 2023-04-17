@@ -74,10 +74,12 @@
                     class="img-fluid rounded-4"
                     alt=""
                   />
+                </div>
               </div>
             </div>
           </div>
         </b-container>
       </section>
+    </main>
       <!-- End About Us Section -->
 </template>
