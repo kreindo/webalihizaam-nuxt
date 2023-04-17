@@ -363,9 +363,9 @@ section {
     align-items: center;
   }
 
-  /* .navbar li {
+  .navbar li {
     position: relative;
-  } */
+  }
 
   .navbar > ul > li {
     white-space: nowrap;
