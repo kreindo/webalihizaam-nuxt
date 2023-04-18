@@ -11,7 +11,7 @@
       <b-container>
         <div class="section-header">
           <h2>Galeri</h2>
-          <p style="color: black">
+          <p style="color: white">
             Kami sangat bersyukur dapat berbagi momen-momen yang bersih dan
             menginspirasi dari kegiatan-kegiatan amal dan program kemanusiaan
             kami. Kita dapat melihat seberapa besar dampak yang telah kami

@@ -5,7 +5,7 @@
         <b-container>
           <div class="section-header">
             <h2>Program Yayasan Ali Hizaam</h2>
-            <p style="color: black">
+            <p style="color: white">
               Program-program Yayasan Ali Hizaam telah terbukti memberikan
               manfaat dan dampak positif bagi masyarakat Indonesia. Kami percaya
               bahwa dengan program-program kami, kita dapat membantu
